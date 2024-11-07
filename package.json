@@ -1,0 +1,25 @@
+{
+  "name": "assets-programatic",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node --loader tsm src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "form-data": "^4.0.1",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "tsm": "^2.3.0",
+    "undici": "^6.20.1"
+  }
+}
