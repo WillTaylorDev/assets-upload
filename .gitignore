@@ -1,0 +1,4 @@
+dist/*
+src/index.js
+node_modules/*
+.env.private
